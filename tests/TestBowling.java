@@ -23,5 +23,12 @@ public class TestBowling {
 		assertEquals(expected,f.score());
 	}
 	
+	@Test(expected=BowlingException.class)
+	public void testZaScoreSaGreskom() {
+		Frame f=new Frame(5,10);
+		int expected=5+10;
+		assertEquals(expected,f.score());
+	}
+	
 
 }

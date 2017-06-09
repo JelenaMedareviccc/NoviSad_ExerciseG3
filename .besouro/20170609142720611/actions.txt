@@ -19,3 +19,11 @@ EditAction 1497011485275 TestBowling.java 463 3 7 3
 EditAction 1497011545781 Frame.java 723 6 7 0
 CompilationAction 1497011547189 Frame.java
 EditAction 1497011560579 Frame.java 746 6 7 0
+UnitTestCaseAction 1497011563571 TestBowling.java OK
+UnitTestSessionAction 1497011563574 TestBowling.java OK
+RefactoringAction 1497011574586 TestBowling.java ADD void testZaScore()/2 METHOD
+RefactoringAction 1497011581607 TestBowling.java RENAME testZaScore()/2=>void testKada() METHOD
+RefactoringAction 1497011583621 TestBowling.java RENAME testKada()=>void testKadaJe() METHOD
+RefactoringAction 1497011585635 TestBowling.java RENAME testKadaJe()=>void testZa() METHOD
+RefactoringAction 1497011589192 TestBowling.java RENAME testZa()=>void testZaScoreSaGreskom() METHOD
+EditAction 1497011612663 TestBowling.java 637 4 10 4
