@@ -17,17 +17,29 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void testZaScore() {
+	public void testZaScore() throws BowlingException{
 		Frame f=new Frame(5,2);
 		int expected=5+2;
 		assertEquals(expected,f.score());
 	}
 	
 	@Test(expected=BowlingException.class)
-	public void testZaScoreSaGreskom() {
+	public void testZaScoreSaGreskom() throws BowlingException {
 		Frame f=new Frame(5,10);
 		int expected=5+10;
 		assertEquals(expected,f.score());
+	}
+	
+	@Test
+	public void testAkojeSpare() {
+		Frame f=new Frame(5,5);
+		assertTrue(f.isSpare());
+	}
+	
+	@Test
+	public void testAkoNijeSpare() {
+		Frame f=new Frame(3,5);
+		assertFalse(f.isSpare());
 	}
 	
 
