@@ -31,3 +31,7 @@
 1497014889692 refactoring 1A 3 true
 1497014912379 refactoring 1A 2 true
 1497014974166 refactoring 1A 1 true
+1497015035293 refactoring 1A 39 false
+1497015111929 regression 1 0 false
+1497015113034 regression 1 0 false
+1497015119835 regression 1 0 false

@@ -243,3 +243,15 @@ EditAction 1497015011779 TestBowling.java 6517 19 142 17
 UnitTestCaseAction 1497015014976 TestBowling.java FAIL
 UnitTestSessionAction 1497015014976 TestBowling.java FAIL
 EditAction 1497015032934 TestBowling.java 6483 19 141 17
+UnitTestCaseAction 1497015035277 TestBowling.java OK
+UnitTestSessionAction 1497015035293 TestBowling.java OK
+UnitTestCaseAction 1497015111929 TestBowling.java OK
+UnitTestSessionAction 1497015111929 TestBowling.java OK
+UnitTestCaseAction 1497015113034 TestBowling.java OK
+UnitTestSessionAction 1497015113034 TestBowling.java OK
+UnitTestCaseAction 1497015119835 TestBowling.java OK
+UnitTestSessionAction 1497015119835 TestBowling.java OK
+RefactoringAction 1497015178500 TestBowling.java ADD void helper() METHOD
+RefactoringAction 1497015194748 TestBowling.java RENAME helper()=>void helper(BowlingGame, int) METHOD
+RefactoringAction 1497015231884 TestBowling.java REMOVE helper(BowlingGame, int) METHOD
+EditAction 1497015236931 TestBowling.java 6483 19 141 17
