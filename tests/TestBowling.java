@@ -141,7 +141,7 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void testZaRacunanjeKrajnjegRezultataAkoSeDesioSpikeNaPocetku() throws BowlingException{
+	public void testZaRacunanjeKrajnjegRezultataAkoSeDesioStrikeNaPocetku() throws BowlingException{
 		BowlingGame game=new BowlingGame();
 		game.addFrame(new Frame(10,0));
 		for(int i=0;i<9;i++)
@@ -150,6 +150,37 @@ public class TestBowling {
 		}
 		
 		int exception=10+4+9*4;
+		assertEquals(exception,game.score());	
+	}
+	
+	@Test
+	public void testZaRacunanjeKrajnjegRezultataAkoSeDesioStrikeUSredini() throws BowlingException{
+		BowlingGame game=new BowlingGame();
+		
+		for(int i=0;i<5;i++)
+		{
+			game.addFrame(new Frame(2,2));
+		}
+		game.addFrame(new Frame(10,0));
+		for(int i=0;i<4;i++)
+		{
+			game.addFrame(new Frame(2,2));
+		}
+		
+		int exception=5*4+10+4+4*4;
+		assertEquals(exception,game.score());	
+	}
+	@Test
+	public void testZaRacunanjeKrajnjegRezultataAkoSeDesioStrikeNaKraju() throws BowlingException{
+		BowlingGame game=new BowlingGame();
+		
+		for(int i=0;i<9;i++)
+		{
+			game.addFrame(new Frame(2,2));
+		}
+		game.addFrame(new Frame(10,0));
+		game.setBonus(2, 5);
+		int exception=9*4+10+7;
 		assertEquals(exception,game.score());	
 	}
 
