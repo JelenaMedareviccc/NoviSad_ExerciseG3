@@ -117,3 +117,8 @@ RefactoringAction 1497012857054 Frame.java ADD void setFirstThrow(int) METHOD
 RefactoringAction 1497012857056 Frame.java ADD void setSecondThrow(int) METHOD
 EditAction 1497012858589 Frame.java 1099 8 11 0
 EditAction 1497012872031 BowlingGame.java 936 5 5 0
+UnitTestCaseAction 1497012875466 TestBowling.java OK
+UnitTestSessionAction 1497012875468 TestBowling.java OK
+RefactoringAction 1497012889523 TestBowling.java ADD void testZaSetovanjeBonusa1()/2 METHOD
+RefactoringAction 1497012893036 TestBowling.java RENAME testZaSetovanjeBonusa1()/2=>void testZaSetovanjeBonusa2() METHOD
+EditAction 1497012905400 TestBowling.java 1892 12 28 10
