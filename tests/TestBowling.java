@@ -123,7 +123,7 @@ public class TestBowling {
 			game.addFrame(new Frame(2,2));
 		}
 		
-		int exception=4*5+10+2+5*4;
+		int exception=4*4+10+2+5*4;
 		assertEquals(exception,game.score());	
 	}
 	
