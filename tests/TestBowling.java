@@ -5,8 +5,9 @@ import org.junit.Test;
 public class TestBowling {
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void testZaKonstruktor1() {
+		Frame f=new Frame(5,2);
+		assertEquals(5,f.getFirstThrow());
 	}
 
 }

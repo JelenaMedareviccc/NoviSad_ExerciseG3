@@ -1,0 +1,10 @@
+FileOpenedAction 1497011241181 BowlingException.java 58 0 0 0
+FileOpenedAction 1497011259334 TestBowling.java 165 1 1 0
+FileOpenedAction 1497011261444 BowlingGame.java 708 4 1 0
+FileOpenedAction 1497011262411 Frame.java 671 6 7 0
+RefactoringAction 1497011285385 TestBowling.java RENAME test()=>void testZa() METHOD
+RefactoringAction 1497011288903 TestBowling.java RENAME testZa()=>void testZaKonstruktor() METHOD
+RefactoringAction 1497011292422 TestBowling.java RENAME testZaKonstruktor()=>void testZa() METHOD
+RefactoringAction 1497011296435 TestBowling.java RENAME testZa()=>void testZaKonstruktor() METHOD
+RefactoringAction 1497011297444 TestBowling.java RENAME testZaKonstruktor()=>void testZaKonstruktor1() METHOD
+EditAction 1497011393597 TestBowling.java 212 1 2 1
