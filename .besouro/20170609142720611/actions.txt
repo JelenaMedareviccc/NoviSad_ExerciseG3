@@ -103,3 +103,7 @@ EditAction 1497012570487 BowlingGame.java 839 4 2 0
 UnitTestCaseAction 1497012573906 TestBowling.java OK
 UnitTestSessionAction 1497012573907 TestBowling.java OK
 EditAction 1497012598540 Frame.java 925 6 9 0
+RefactoringAction 1497012625472 TestBowling.java ADD void testZaKonstruktor1()/2 METHOD
+RefactoringAction 1497012632988 TestBowling.java RENAME testZaKonstruktor1()/2=>void testZaSetovanjeBonusa() METHOD
+RefactoringAction 1497012635002 TestBowling.java RENAME testZaSetovanjeBonusa()=>void testZaSetovanjeBonusa1() METHOD
+EditAction 1497012684309 TestBowling.java 1718 11 25 9

@@ -72,6 +72,12 @@ public class TestBowling {
 		}
 	}
 	
+	@Test
+	public void testZaSetovanjeBonusa1() {
+		BowlingGame game=new BowlingGame();
+		game.setBonus(5, 0);
+		assertEquals(5,game.getBonus().getFirstThrow());
+	}
 	
 	
 
