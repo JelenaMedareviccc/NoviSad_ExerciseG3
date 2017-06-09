@@ -32,7 +32,7 @@ public class BowlingGame {
 	
 	// Returns the game score
 	public int score() throws BowlingException{
-		//to be implemented: should return game score 
+		
 		for(int i=0;i<frames.size();i++)
 		{
 			totalScore+=frames.get(i).score();
