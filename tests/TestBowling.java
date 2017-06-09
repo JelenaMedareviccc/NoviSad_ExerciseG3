@@ -86,6 +86,17 @@ public class TestBowling {
 		assertEquals(7,game.getBonus().getSecondThrow());	
 	}
 	
+	@Test
+	public void testZaRacunanjeKrajnjegRezultata() throws BowlingException{
+		BowlingGame game=new BowlingGame();
+		for(int i=0;i<10;i++)
+		{
+			game.addFrame(new Frame(2,2));
+		}
+		int exception=10*2*2;
+		assertEquals(exception,game.score());	
+	}
+	
 	
 
 }

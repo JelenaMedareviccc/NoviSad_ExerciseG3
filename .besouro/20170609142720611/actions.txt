@@ -125,3 +125,13 @@ EditAction 1497012905400 TestBowling.java 1892 12 28 10
 UnitTestCaseAction 1497012908201 TestBowling.java FAIL
 UnitTestSessionAction 1497012908202 TestBowling.java FAIL
 EditAction 1497012926807 BowlingGame.java 974 5 6 0
+UnitTestCaseAction 1497012930508 TestBowling.java OK
+UnitTestSessionAction 1497012930510 TestBowling.java OK
+UnitTestCaseAction 1497012946130 TestBowling.java OK
+UnitTestSessionAction 1497012946132 TestBowling.java OK
+RefactoringAction 1497012976650 TestBowling.java ADD void testZaSetovanjeBonusa2()/2 METHOD
+RefactoringAction 1497012981664 TestBowling.java RENAME testZaSetovanjeBonusa2()/2=>void testZa() METHOD
+RefactoringAction 1497012984678 TestBowling.java RENAME testZa()=>void testZaRacunanje() METHOD
+RefactoringAction 1497012986691 TestBowling.java RENAME testZaRacunanje()=>void testZaRacunanjeKrajnjeg() METHOD
+RefactoringAction 1497012989205 TestBowling.java RENAME testZaRacunanjeKrajnjeg()=>void testZaRacunanjeKrajnjegRezultata() METHOD
+EditAction 1497013076072 TestBowling.java 2157 13 32 11
