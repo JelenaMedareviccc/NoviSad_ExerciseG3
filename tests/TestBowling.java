@@ -193,15 +193,17 @@ public class TestBowling {
 	public void testZaRacunanjeKrajnjegRezultataAkoSeDesioStrikeUSredini() throws BowlingException{
 		BowlingGame game=new BowlingGame();
 		
-		for(int i=0;i<5;i++)
-		{
-			game.addFrame(new Frame(2,2));
-		}
+		
+		game.addFrame(new Frame(2,2));
+		game.addFrame(new Frame(2,2));
+		game.addFrame(new Frame(2,2));
+		game.addFrame(new Frame(2,2));
 		game.addFrame(new Frame(10,0));
-		for(int i=0;i<4;i++)
-		{
-			game.addFrame(new Frame(2,2));
-		}
+		game.addFrame(new Frame(2,2));
+		game.addFrame(new Frame(2,2));
+		game.addFrame(new Frame(2,2));
+		game.addFrame(new Frame(2,2));
+		game.addFrame(new Frame(2,2));
 		
 		int exception=5*4+10+4+4*4;
 		assertEquals(exception,game.score());	
