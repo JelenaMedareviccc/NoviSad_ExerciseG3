@@ -55,3 +55,6 @@ RefactoringAction 1497011885046 TestBowling.java ADD void testAkojeSpare()/2 MET
 RefactoringAction 1497011888067 TestBowling.java RENAME testAkojeSpare()/2=>void testAkoje() METHOD
 RefactoringAction 1497011890580 TestBowling.java RENAME testAkoje()=>void testAkojeStrike() METHOD
 EditAction 1497011917932 TestBowling.java 999 7 16 7
+UnitTestCaseAction 1497011920095 TestBowling.java FAIL
+UnitTestSessionAction 1497011920098 TestBowling.java FAIL
+EditAction 1497011985939 Frame.java 919 6 9 0
