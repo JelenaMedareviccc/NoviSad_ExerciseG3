@@ -47,6 +47,11 @@ public class TestBowling {
 		Frame f=new Frame(10,0);
 		assertTrue(f.isStrike());
 	}
+	@Test
+	public void testAkoNijeStrike() {
+		Frame f=new Frame(5,5);
+		assertFalse(f.isStrike());
+	}
 	
 
 }

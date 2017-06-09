@@ -58,3 +58,10 @@ EditAction 1497011917932 TestBowling.java 999 7 16 7
 UnitTestCaseAction 1497011920095 TestBowling.java FAIL
 UnitTestSessionAction 1497011920098 TestBowling.java FAIL
 EditAction 1497011985939 Frame.java 919 6 9 0
+UnitTestCaseAction 1497011989462 TestBowling.java OK
+UnitTestSessionAction 1497011989464 TestBowling.java OK
+UnitTestCaseAction 1497012024590 TestBowling.java OK
+UnitTestSessionAction 1497012024592 TestBowling.java OK
+RefactoringAction 1497012036298 TestBowling.java ADD void testAkojeStrike()/2 METHOD
+RefactoringAction 1497012040319 TestBowling.java RENAME testAkojeStrike()/2=>void testAkoNijeStrike() METHOD
+EditAction 1497012053782 TestBowling.java 1104 8 18 8
