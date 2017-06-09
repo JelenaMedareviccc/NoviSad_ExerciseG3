@@ -172,3 +172,8 @@ UnitTestSessionAction 1497013685065 TestBowling.java OK
 RefactoringAction 1497013693442 TestBowling.java ADD void testZaRacunanjeKrajnjegRezultataAkoSeDesioSpareUSredini()/2 METHOD
 RefactoringAction 1497013700071 TestBowling.java RENAME testZaRacunanjeKrajnjegRezultataAkoSeDesioSpareUSredini()/2=>void testZaRacunanjeKrajnjegRezultataAkoSeDesioSpareNaKraju() METHOD
 EditAction 1497013729747 TestBowling.java 3231 16 49 14
+UnitTestCaseAction 1497013732340 TestBowling.java OK
+UnitTestSessionAction 1497013732340 TestBowling.java OK
+RefactoringAction 1497013742230 TestBowling.java ADD void testZaRacunanjeKrajnjegRezultataAkoSeDesioSpareNaPocetku()/2 METHOD
+RefactoringAction 1497013747855 TestBowling.java RENAME testZaRacunanjeKrajnjegRezultataAkoSeDesioSpareNaPocetku()/2=>void testZaRacunanjeKrajnjegRezultataAkoSeDesioSpikeNaPocetku() METHOD
+EditAction 1497013763139 TestBowling.java 3557 17 54 15

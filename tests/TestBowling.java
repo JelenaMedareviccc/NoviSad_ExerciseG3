@@ -140,5 +140,17 @@ public class TestBowling {
 		assertEquals(exception,game.score());	
 	}
 	
+	@Test
+	public void testZaRacunanjeKrajnjegRezultataAkoSeDesioSpikeNaPocetku() throws BowlingException{
+		BowlingGame game=new BowlingGame();
+		game.addFrame(new Frame(10,0));
+		for(int i=0;i<9;i++)
+		{
+			game.addFrame(new Frame(2,2));
+		}
+		
+		int exception=10+4+9*4;
+		assertEquals(exception,game.score());	
+	}
 
 }
