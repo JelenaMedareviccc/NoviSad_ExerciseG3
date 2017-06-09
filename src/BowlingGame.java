@@ -14,10 +14,7 @@ public class BowlingGame {
 	
 	// adds a frame to the game
 	public void addFrame(Frame frame) throws BowlingException{
-		if(frames.size()>10)
-			throw new BowlingException("Broj frejmova ne smije biti veci od 10!");
-		else
-			frames.add(frame);
+		
 	}
 	
 	// Sets the bonus throws at the end of the game
