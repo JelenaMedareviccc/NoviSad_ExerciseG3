@@ -6,8 +6,8 @@ public class BowlingException extends Exception {
 		// TODO Auto-generated constructor stub
 	}
 
-	public BowlingException(String arg0) {
-		super(arg0);
+	public BowlingException(String message) {
+		super(message);
 		// TODO Auto-generated constructor stub
 	}
 	

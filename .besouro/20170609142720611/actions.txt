@@ -263,3 +263,16 @@ UnitTestSessionAction 1497015303605 TestBowling.java OK
 UnitTestCaseAction 1497015387385 TestBowling.java OK
 UnitTestSessionAction 1497015387385 TestBowling.java OK
 EditAction 1497015413274 BowlingGame.java 1413 5 7 0
+UnitTestCaseAction 1497015427415 TestBowling.java OK
+UnitTestSessionAction 1497015427415 TestBowling.java OK
+FileOpenedAction 1497015444711 BowlingException.java 256 2 2 0
+UnitTestCaseAction 1497015463572 TestBowling.java OK
+UnitTestSessionAction 1497015463572 TestBowling.java OK
+UnitTestCaseAction 1497015468161 TestBowling.java OK
+UnitTestSessionAction 1497015468161 TestBowling.java OK
+UnitTestCaseAction 1497015470671 TestBowling.java OK
+UnitTestSessionAction 1497015470671 TestBowling.java OK
+UnitTestCaseAction 1497015474046 TestBowling.java OK
+UnitTestSessionAction 1497015474046 TestBowling.java OK
+UnitTestCaseAction 1497015500628 TestBowling.java OK
+UnitTestSessionAction 1497015500628 TestBowling.java OK
