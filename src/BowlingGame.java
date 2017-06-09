@@ -19,7 +19,7 @@ public class BowlingGame {
 	// adds a frame to the game
 	public void addFrame(Frame frame) throws BowlingException{
 		if(frames.size()>10)
-			throw new BowlingException("Broj cijelina ne smije biti veci od 10!");
+			throw new BowlingException("Broj cjelina ne smije biti veci od 10!");
 		else
 			frames.add(frame);
 	}
@@ -45,15 +45,10 @@ public class BowlingGame {
 				else if(frames.get(i).isStrike())
 				{
 					this.setBonus(frames.get(i+1).getFirstThrow(), frames.get(i+1).getSecondThrow());
-				}
-				totalScore+=bonus.score();
-				setBonus(0,0);
+				}	
 			}
-			else
-			{
-				totalScore+=bonus.score();
-				setBonus(0,0);
-			}
+			totalScore+=bonus.score();
+			setBonus(0,0);
 			
 		}	
 		return totalScore;
