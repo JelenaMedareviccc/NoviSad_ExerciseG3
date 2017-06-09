@@ -167,3 +167,8 @@ EditAction 1497013635332 TestBowling.java 2884 15 43 13
 UnitTestCaseAction 1497013637999 TestBowling.java FAIL
 UnitTestSessionAction 1497013638014 TestBowling.java FAIL
 EditAction 1497013682390 TestBowling.java 2884 15 43 13
+UnitTestCaseAction 1497013685065 TestBowling.java OK
+UnitTestSessionAction 1497013685065 TestBowling.java OK
+RefactoringAction 1497013693442 TestBowling.java ADD void testZaRacunanjeKrajnjegRezultataAkoSeDesioSpareUSredini()/2 METHOD
+RefactoringAction 1497013700071 TestBowling.java RENAME testZaRacunanjeKrajnjegRezultataAkoSeDesioSpareUSredini()/2=>void testZaRacunanjeKrajnjegRezultataAkoSeDesioSpareNaKraju() METHOD
+EditAction 1497013729747 TestBowling.java 3231 16 49 14

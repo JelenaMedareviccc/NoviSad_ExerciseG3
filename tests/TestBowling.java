@@ -126,6 +126,19 @@ public class TestBowling {
 		int exception=4*4+10+2+5*4;
 		assertEquals(exception,game.score());	
 	}
+	@Test
+	public void testZaRacunanjeKrajnjegRezultataAkoSeDesioSpareNaKraju() throws BowlingException{
+		BowlingGame game=new BowlingGame();
+		
+		for(int i=0;i<9;i++)
+		{
+			game.addFrame(new Frame(2,2));
+		}
+		game.addFrame(new Frame(5,5));
+		game.setBonus(2, 0);
+		int exception=9*4+10+2;
+		assertEquals(exception,game.score());	
+	}
 	
 
 }
