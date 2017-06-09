@@ -77,6 +77,7 @@ public class TestBowling {
 		BowlingGame game=new BowlingGame();
 		game.setBonus(5, 0);
 		assertEquals(5,game.getBonus().getFirstThrow());
+		
 	}
 	
 	

@@ -107,3 +107,9 @@ RefactoringAction 1497012625472 TestBowling.java ADD void testZaKonstruktor1()/2
 RefactoringAction 1497012632988 TestBowling.java RENAME testZaKonstruktor1()/2=>void testZaSetovanjeBonusa() METHOD
 RefactoringAction 1497012635002 TestBowling.java RENAME testZaSetovanjeBonusa()=>void testZaSetovanjeBonusa1() METHOD
 EditAction 1497012684309 TestBowling.java 1718 11 25 9
+CompilationAction 1497012687608 TestBowling.java
+CompilationAction 1497012729032 TestBowling.java
+RefactoringAction 1497012766613 BowlingGame.java ADD Frame getBonus() METHOD
+RefactoringAction 1497012770627 BowlingGame.java REMOVE getBonus() METHOD
+RefactoringAction 1497012773139 BowlingGame.java ADD Frame getBonus() METHOD
+EditAction 1497012774012 BowlingGame.java 923 5 4 0
