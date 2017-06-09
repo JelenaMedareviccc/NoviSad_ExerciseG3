@@ -122,3 +122,6 @@ UnitTestSessionAction 1497012875468 TestBowling.java OK
 RefactoringAction 1497012889523 TestBowling.java ADD void testZaSetovanjeBonusa1()/2 METHOD
 RefactoringAction 1497012893036 TestBowling.java RENAME testZaSetovanjeBonusa1()/2=>void testZaSetovanjeBonusa2() METHOD
 EditAction 1497012905400 TestBowling.java 1892 12 28 10
+UnitTestCaseAction 1497012908201 TestBowling.java FAIL
+UnitTestSessionAction 1497012908202 TestBowling.java FAIL
+EditAction 1497012926807 BowlingGame.java 974 5 6 0
