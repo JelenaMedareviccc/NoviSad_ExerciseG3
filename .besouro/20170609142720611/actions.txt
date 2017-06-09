@@ -186,3 +186,6 @@ RefactoringAction 1497013787986 TestBowling.java RENAME testZaRacunanjeKrajnjegR
 RefactoringAction 1497013792560 TestBowling.java RENAME testZaRacunanjeKrajnjegRezultataAkoSeDesioSpikeNaPocetku()=>void testZaRacunanjeKrajnjegRezultataAkoSeDesioStrikeNaPocetku() METHOD
 RefactoringAction 1497013798622 TestBowling.java RENAME testZaRacunanjeKrajnjegRezultataAkoSeDesioSpareNaKraju()/2=>void testZaRacunanjeKrajnjegRezultataAkoSeDesioStrikeNaKraju() METHOD
 EditAction 1497013845757 TestBowling.java 4313 19 66 17
+UnitTestCaseAction 1497013848997 TestBowling.java FAIL
+UnitTestSessionAction 1497013848997 TestBowling.java FAIL
+EditAction 1497013896159 BowlingGame.java 1447 5 7 0
