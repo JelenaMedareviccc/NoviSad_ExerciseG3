@@ -19,6 +19,8 @@ public class Frame {
 	public int score(){
 		if(this.firstThrow+this.secondThrow<=10)
 		return this.firstThrow+this.secondThrow;
+		else 
+			return 0;
 	}
 
 	//returns whether the frame is a strike or not

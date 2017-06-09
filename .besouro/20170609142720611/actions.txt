@@ -17,3 +17,5 @@ RefactoringAction 1497011456367 TestBowling.java ADD void testZaKonstruktor2()/2
 RefactoringAction 1497011460887 TestBowling.java RENAME testZaKonstruktor2()/2=>void testZaScore() METHOD
 EditAction 1497011485275 TestBowling.java 463 3 7 3
 EditAction 1497011545781 Frame.java 723 6 7 0
+CompilationAction 1497011547189 Frame.java
+EditAction 1497011560579 Frame.java 746 6 7 0
