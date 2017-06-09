@@ -57,19 +57,33 @@ public class TestBowling {
 	@Test(expected=BowlingException.class)
 	public void testPrilikomUnosaViseOdDozvoljenogBrojaFramova() throws BowlingException {
 		BowlingGame game=new BowlingGame();
-		for(int i=0;i<15;i++)
-		{
-			game.addFrame(new Frame(2,2));
-		}
+		game.addFrame(new Frame(2,2));
+		game.addFrame(new Frame(2,2));
+		game.addFrame(new Frame(2,2));
+		game.addFrame(new Frame(2,2));
+		game.addFrame(new Frame(2,2));
+		game.addFrame(new Frame(2,2));
+		game.addFrame(new Frame(2,2));
+		game.addFrame(new Frame(2,2));
+		game.addFrame(new Frame(2,2));
+		game.addFrame(new Frame(2,2));
+		game.addFrame(new Frame(2,2));
+		game.addFrame(new Frame(2,2));
 	}
 	
 	@Test
 	public void testPrilikomUnosaFramova() throws BowlingException {
 		BowlingGame game=new BowlingGame();
-		for(int i=0;i<10;i++)
-		{
-			game.addFrame(new Frame(2,2));
-		}
+		game.addFrame(new Frame(2,2));
+		game.addFrame(new Frame(2,2));
+		game.addFrame(new Frame(2,2));
+		game.addFrame(new Frame(2,2));
+		game.addFrame(new Frame(2,2));
+		game.addFrame(new Frame(2,2));
+		game.addFrame(new Frame(2,2));
+		game.addFrame(new Frame(2,2));
+		game.addFrame(new Frame(2,2));
+		game.addFrame(new Frame(2,2));
 	}
 	
 	@Test
@@ -183,5 +197,6 @@ public class TestBowling {
 		int exception=9*4+10+7;
 		assertEquals(exception,game.score());	
 	}
-
+	
+	
 }
