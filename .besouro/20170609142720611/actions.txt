@@ -200,3 +200,7 @@ EditAction 1497014319678 BowlingGame.java 1399 5 7 0
 UnitTestCaseAction 1497014324151 TestBowling.java OK
 UnitTestSessionAction 1497014324151 TestBowling.java OK
 EditAction 1497014338432 BowlingGame.java 1395 5 7 0
+RefactoringAction 1497014375934 TestBowling.java ADD void helper FIELD
+RefactoringAction 1497014381493 TestBowling.java RENAME helper=>void helper() METHOD
+RefactoringAction 1497014413450 TestBowling.java REMOVE helper() METHOD
+EditAction 1497014428283 TestBowling.java 4313 19 66 17
