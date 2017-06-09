@@ -116,3 +116,4 @@ EditAction 1497012774012 BowlingGame.java 923 5 4 0
 RefactoringAction 1497012857054 Frame.java ADD void setFirstThrow(int) METHOD
 RefactoringAction 1497012857056 Frame.java ADD void setSecondThrow(int) METHOD
 EditAction 1497012858589 Frame.java 1099 8 11 0
+EditAction 1497012872031 BowlingGame.java 936 5 5 0
