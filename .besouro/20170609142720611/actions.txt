@@ -255,3 +255,6 @@ RefactoringAction 1497015178500 TestBowling.java ADD void helper() METHOD
 RefactoringAction 1497015194748 TestBowling.java RENAME helper()=>void helper(BowlingGame, int) METHOD
 RefactoringAction 1497015231884 TestBowling.java REMOVE helper(BowlingGame, int) METHOD
 EditAction 1497015236931 TestBowling.java 6483 19 141 17
+UnitTestCaseAction 1497015239771 TestBowling.java OK
+UnitTestSessionAction 1497015239771 TestBowling.java OK
+EditAction 1497015300671 BowlingGame.java 1397 5 7 0
