@@ -121,10 +121,15 @@ public class TestBowling {
 	public void testZaRacunanjeKrajnjegRezultataAkoSeDesioSpareNaPocetku() throws BowlingException{
 		BowlingGame game=new BowlingGame();
 		game.addFrame(new Frame(5,5));
-		for(int i=0;i<9;i++)
-		{
-			game.addFrame(new Frame(2,2));
-		}
+		game.addFrame(new Frame(2,2));
+		game.addFrame(new Frame(2,2));
+		game.addFrame(new Frame(2,2));
+		game.addFrame(new Frame(2,2));
+		game.addFrame(new Frame(2,2));
+		game.addFrame(new Frame(2,2));
+		game.addFrame(new Frame(2,2));
+		game.addFrame(new Frame(2,2));
+		game.addFrame(new Frame(2,2));
 		
 		int exception=5+5+2+9*4;
 		assertEquals(exception,game.score());	
