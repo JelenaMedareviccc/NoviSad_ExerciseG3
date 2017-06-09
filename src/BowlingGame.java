@@ -49,6 +49,11 @@ public class BowlingGame {
 				totalScore+=bonus.score();
 				setBonus(0,0);
 			}
+			else
+			{
+				totalScore+=bonus.score();
+				setBonus(0,0);
+			}
 			
 		}	
 		return totalScore;
