@@ -79,3 +79,6 @@ RefactoringAction 1497012175638 TestBowling.java RENAME testPrilikomUnosaViseOdD
 RefactoringAction 1497012178652 TestBowling.java RENAME testPrilikomUnosaViseOdDozvoljenogBrojaFrame()=>void testPrilikomUnosaViseOdDozvoljenogBrojaFrame FIELD
 RefactoringAction 1497012184679 TestBowling.java RENAME testPrilikomUnosaViseOdDozvoljenogBrojaFrame()=>void testPrilikomUnosaViseOdDozvoljenogBrojaFramova() METHOD
 EditAction 1497012237157 TestBowling.java 1359 9 20 8
+UnitTestCaseAction 1497012240355 TestBowling.java FAIL
+UnitTestSessionAction 1497012240357 TestBowling.java FAIL
+EditAction 1497012321985 BowlingGame.java 807 4 1 0
