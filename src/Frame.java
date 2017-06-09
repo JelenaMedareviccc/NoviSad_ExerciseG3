@@ -36,6 +36,14 @@ public class Frame {
 			return true;
 		return false;
 	}
+
+	public void setFirstThrow(int firstThrow) {
+		this.firstThrow = firstThrow;
+	}
+
+	public void setSecondThrow(int secondThrow) {
+		this.secondThrow = secondThrow;
+	}
 	
 	
 }
