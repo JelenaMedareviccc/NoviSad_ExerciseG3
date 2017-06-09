@@ -8,3 +8,8 @@ RefactoringAction 1497011292422 TestBowling.java RENAME testZaKonstruktor()=>voi
 RefactoringAction 1497011296435 TestBowling.java RENAME testZa()=>void testZaKonstruktor() METHOD
 RefactoringAction 1497011297444 TestBowling.java RENAME testZaKonstruktor()=>void testZaKonstruktor1() METHOD
 EditAction 1497011393597 TestBowling.java 212 1 2 1
+UnitTestCaseAction 1497011418731 TestBowling.java OK
+UnitTestSessionAction 1497011418734 TestBowling.java OK
+RefactoringAction 1497011425281 TestBowling.java ADD void testZaKonstruktor1()/2 METHOD
+RefactoringAction 1497011427794 TestBowling.java RENAME testZaKonstruktor1()/2=>void testZaKonstruktor2() METHOD
+EditAction 1497011434112 TestBowling.java 330 2 4 2

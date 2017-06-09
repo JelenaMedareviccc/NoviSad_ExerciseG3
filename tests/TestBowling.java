@@ -9,5 +9,11 @@ public class TestBowling {
 		Frame f=new Frame(5,2);
 		assertEquals(5,f.getFirstThrow());
 	}
+	
+	@Test
+	public void testZaKonstruktor2() {
+		Frame f=new Frame(5,2);
+		assertEquals(5,f.getSecondThrow());
+	}
 
 }
