@@ -204,3 +204,14 @@ RefactoringAction 1497014375934 TestBowling.java ADD void helper FIELD
 RefactoringAction 1497014381493 TestBowling.java RENAME helper=>void helper() METHOD
 RefactoringAction 1497014413450 TestBowling.java REMOVE helper() METHOD
 EditAction 1497014428283 TestBowling.java 4313 19 66 17
+UnitTestCaseAction 1497014436634 TestBowling.java OK
+UnitTestSessionAction 1497014436649 TestBowling.java OK
+UnitTestCaseAction 1497014559580 TestBowling.java OK
+UnitTestSessionAction 1497014559580 TestBowling.java OK
+UnitTestCaseAction 1497014560891 TestBowling.java OK
+UnitTestSessionAction 1497014560891 TestBowling.java OK
+UnitTestCaseAction 1497014563058 TestBowling.java OK
+UnitTestSessionAction 1497014563058 TestBowling.java OK
+UnitTestCaseAction 1497014567346 TestBowling.java OK
+UnitTestSessionAction 1497014567346 TestBowling.java OK
+EditAction 1497014594170 Frame.java 1101 8 11 0

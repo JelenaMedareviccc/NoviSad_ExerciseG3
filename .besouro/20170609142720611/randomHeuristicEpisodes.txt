@@ -19,3 +19,8 @@
 1497013900462 test-first 3 158 true
 1497013987087 refactoring 2A 4 true
 1497014324151 refactoring 2A 326 true
+1497014436649 refactoring 3 98 false
+1497014559580 regression 1 0 false
+1497014560891 regression 1 0 true
+1497014563058 regression 1 0 true
+1497014567346 regression 1 0 false

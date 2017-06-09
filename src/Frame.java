@@ -18,7 +18,7 @@ public class Frame {
 	//returns the score of a single frame
 	public int score() throws BowlingException{
 		if(this.firstThrow+this.secondThrow<=10)
-		return this.firstThrow+this.secondThrow;
+			return this.firstThrow+this.secondThrow;
 		else 
 			throw new BowlingException("Zbir iz dva bacanja ne smije biti veci od 10!");
 	}
