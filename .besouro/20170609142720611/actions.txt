@@ -140,3 +140,9 @@ UnitTestSessionAction 1497013079799 TestBowling.java FAIL
 RefactoringAction 1497013132179 BowlingGame.java ADD int total FIELD
 RefactoringAction 1497013136190 BowlingGame.java RENAME total=>int totalScore FIELD
 EditAction 1497013187924 BowlingGame.java 1115 5 7 0
+UnitTestCaseAction 1497013191121 TestBowling.java OK
+UnitTestSessionAction 1497013191123 TestBowling.java OK
+RefactoringAction 1497013206088 TestBowling.java ADD void testZaRacunanjeKrajnjegRezultata()/2 METHOD
+RefactoringAction 1497013215607 TestBowling.java RENAME testZaRacunanjeKrajnjegRezultata()/2=>void testZaRacunanjeKrajnjegRezultataAkoSeDesioSp() METHOD
+RefactoringAction 1497013217622 TestBowling.java RENAME testZaRacunanjeKrajnjegRezultataAkoSeDesioSp()=>void testZaRacunanjeKrajnjegRezultataAkoSeDesioSpare() METHOD
+EditAction 1497013279500 TestBowling.java 2475 14 38 12
