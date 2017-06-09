@@ -34,8 +34,18 @@ public class BowlingGame {
 	public int score() throws BowlingException{
 		//to be implemented: should return game score 
 		for(int i=0;i<frames.size();i++)
+		{
 			totalScore+=frames.get(i).score();
+			if(i<9)
+			{
+				if(frames.get(i).isSpare())
+				{
+					this.setBonus(frames.get(i+1).getFirstThrow(), 0);
+				}
+				totalScore+=bonus.score();
+			}
 			
+		}	
 		return totalScore;
 	}
 	
