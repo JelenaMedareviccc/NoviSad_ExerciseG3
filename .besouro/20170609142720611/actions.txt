@@ -97,3 +97,6 @@ RefactoringAction 1497012484266 TestBowling.java ADD void testPrilikomUnosaViseO
 RefactoringAction 1497012509319 TestBowling.java RENAME testPrilikomUnosaViseOdDozvoljenogBrojaFramova()/2=>void testPrilikomUnosaFramova() METHOD
 EditAction 1497012517286 TestBowling.java 1550 10 22 8
 EditAction 1497012520783 BowlingGame.java 713 4 1 0
+UnitTestCaseAction 1497012523265 TestBowling.java FAIL
+UnitTestSessionAction 1497012523267 TestBowling.java FAIL
+EditAction 1497012570487 BowlingGame.java 839 4 2 0
