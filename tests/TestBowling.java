@@ -118,7 +118,7 @@ public class TestBowling {
 			game.addFrame(new Frame(2,2));
 		}
 		game.addFrame(new Frame(5,5));
-		for(int i=0;i<6;i++)
+		for(int i=0;i<4;i++)
 		{
 			game.addFrame(new Frame(2,2));
 		}
