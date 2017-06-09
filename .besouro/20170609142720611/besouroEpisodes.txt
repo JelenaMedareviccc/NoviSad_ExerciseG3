@@ -68,3 +68,5 @@
 1497013900467 test-first 3 158 true
 1497013900468 test-first 3 158 true
 1497013987087 refactoring 2A 4 true
+1497014324151 refactoring 2A 326 true
+1497014324152 refactoring 2A 326 true

@@ -48,8 +48,7 @@ public class BowlingGame {
 				}	
 			}
 			totalScore+=bonus.score();
-			setBonus(0,0);
-			
+			setBonus(0,0);	
 		}	
 		return totalScore;
 	}
