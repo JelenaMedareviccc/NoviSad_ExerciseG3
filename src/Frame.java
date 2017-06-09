@@ -16,11 +16,11 @@ public class Frame {
 	}
 
 	//returns the score of a single frame
-	public int score(){
+	public int score() throws BowlingException{
 		if(this.firstThrow+this.secondThrow<=10)
 		return this.firstThrow+this.secondThrow;
 		else 
-			return 0;
+			throw new BowlingException("Zbir iz dva bacanja ne smije biti veci od 10!");
 	}
 
 	//returns whether the frame is a strike or not
