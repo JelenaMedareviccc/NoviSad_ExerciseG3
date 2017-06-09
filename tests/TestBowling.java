@@ -61,8 +61,15 @@ public class TestBowling {
 		{
 			game.addFrame(new Frame(2,2));
 		}
-		
+	}
 	
+	@Test
+	public void testPrilikomUnosaFramova() throws BowlingException {
+		BowlingGame game=new BowlingGame();
+		for(int i=0;i<10;i++)
+		{
+			game.addFrame(new Frame(2,2));
+		}
 	}
 	
 	
