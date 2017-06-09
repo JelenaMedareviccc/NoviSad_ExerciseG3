@@ -13,3 +13,6 @@ UnitTestSessionAction 1497011418734 TestBowling.java OK
 RefactoringAction 1497011425281 TestBowling.java ADD void testZaKonstruktor1()/2 METHOD
 RefactoringAction 1497011427794 TestBowling.java RENAME testZaKonstruktor1()/2=>void testZaKonstruktor2() METHOD
 EditAction 1497011434112 TestBowling.java 330 2 4 2
+RefactoringAction 1497011456367 TestBowling.java ADD void testZaKonstruktor2()/2 METHOD
+RefactoringAction 1497011460887 TestBowling.java RENAME testZaKonstruktor2()/2=>void testZaScore() METHOD
+EditAction 1497011485275 TestBowling.java 463 3 7 3
