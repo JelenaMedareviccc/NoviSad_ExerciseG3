@@ -57,10 +57,24 @@ public class TestBowling {
 	@Test(expected=BowlingException.class)
 	public void testPrilikomUnosaViseOdDozvoljenogBrojaFramova() throws BowlingException {
 		BowlingGame game=new BowlingGame();
-		for(int i=0;i<15;i++)
+		/*for(int i=0;i<15;i++)
 		{
 			game.addFrame(new Frame(2,2));
-		}
+		}*/
+		
+		game.addFrame(new Frame(2,2));
+		game.addFrame(new Frame(2,2));
+		game.addFrame(new Frame(2,2));
+		game.addFrame(new Frame(2,2));
+		game.addFrame(new Frame(2,2));
+		game.addFrame(new Frame(2,2));
+		game.addFrame(new Frame(2,2));
+		game.addFrame(new Frame(2,2));
+		game.addFrame(new Frame(2,2));
+		game.addFrame(new Frame(2,2));
+		game.addFrame(new Frame(2,2));
+		game.addFrame(new Frame(2,2));
+		game.addFrame(new Frame(2,2));
 	}
 	
 	
