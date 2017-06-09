@@ -43,6 +43,7 @@ public class BowlingGame {
 					this.setBonus(frames.get(i+1).getFirstThrow(), 0);
 				}
 				totalScore+=bonus.score();
+				setBonus(0,0);
 			}
 			
 		}	
