@@ -47,11 +47,23 @@ public class TestBowling {
 		Frame f=new Frame(10,0);
 		assertTrue(f.isStrike());
 	}
+	
 	@Test
 	public void testAkoNijeStrike() {
 		Frame f=new Frame(5,5);
 		assertFalse(f.isStrike());
 	}
+	
+	@Test(expected=BowlingException.class)
+	public void testPrilikomUnosaViseOdDozvoljenogBrojaFramova() throws BowlingException {
+		BowlingGame game=new BowlingGame();
+		for(int i=0;i<15;i++)
+		{
+			game.addFrame(new Frame(2,2));
+		}
+	}
+	
+	
 	
 
 }

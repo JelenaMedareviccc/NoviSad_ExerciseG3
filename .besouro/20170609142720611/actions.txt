@@ -65,3 +65,17 @@ UnitTestSessionAction 1497012024592 TestBowling.java OK
 RefactoringAction 1497012036298 TestBowling.java ADD void testAkojeStrike()/2 METHOD
 RefactoringAction 1497012040319 TestBowling.java RENAME testAkojeStrike()/2=>void testAkoNijeStrike() METHOD
 EditAction 1497012053782 TestBowling.java 1104 8 18 8
+UnitTestCaseAction 1497012060434 TestBowling.java OK
+UnitTestSessionAction 1497012060436 TestBowling.java OK
+UnitTestCaseAction 1497012105100 TestBowling.java OK
+UnitTestSessionAction 1497012105102 TestBowling.java OK
+RefactoringAction 1497012156015 TestBowling.java ADD void testZaScoreSaGreskom()/2 METHOD
+RefactoringAction 1497012159534 TestBowling.java RENAME testZaScoreSaGreskom()/2=>void tes() METHOD
+RefactoringAction 1497012163552 TestBowling.java RENAME tes()=>void testPrilikomUnosa() METHOD
+RefactoringAction 1497012166077 TestBowling.java RENAME testPrilikomUnosa()=>void testPrilikomUnosaV() METHOD
+RefactoringAction 1497012169088 TestBowling.java RENAME testPrilikomUnosaV()=>void testPrilikomUnosaViseOdDoz() METHOD
+RefactoringAction 1497012173608 TestBowling.java RENAME testPrilikomUnosaViseOdDoz()=>void testPrilikomUnosaViseOdDozvoljenogBrojaFram() METHOD
+RefactoringAction 1497012175638 TestBowling.java RENAME testPrilikomUnosaViseOdDozvoljenogBrojaFram()=>void testPrilikomUnosaViseOdDozvoljenogBrojaFrame() METHOD
+RefactoringAction 1497012178652 TestBowling.java RENAME testPrilikomUnosaViseOdDozvoljenogBrojaFrame()=>void testPrilikomUnosaViseOdDozvoljenogBrojaFrame FIELD
+RefactoringAction 1497012184679 TestBowling.java RENAME testPrilikomUnosaViseOdDozvoljenogBrojaFrame()=>void testPrilikomUnosaViseOdDozvoljenogBrojaFramova() METHOD
+EditAction 1497012237157 TestBowling.java 1359 9 20 8
